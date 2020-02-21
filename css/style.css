@@ -68,8 +68,8 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
-    .about-text {
-        display: absolute;
+    .about {
+        flex-direction: column;
     }
     
     img {
